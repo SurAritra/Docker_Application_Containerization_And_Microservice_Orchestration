@@ -26,7 +26,7 @@ ls -l linkextractor.py
 echo "no sufficient permission"
 echo "So 2 ways to address either run as python prog or enable permission"
 
-chmod a+x linkextractor.py
+chmod a+x linkextractor.py #Can be done with either of this command
 python linkextractor.py
 
 echo "Now the 3rd party library is missing bs4"
@@ -69,6 +69,8 @@ echo "-i ==>interactive ,-t ==>allocate pseudo tty,--rm will auto remove contain
 echo "====================================================================="
 echo "Step 2: Link Extractor Module with Full URI and Anchor Text"
 
+git checkout step2
+tree
 
 
 
