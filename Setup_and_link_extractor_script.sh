@@ -72,5 +72,12 @@ echo "Step 2: Link Extractor Module with Full URI and Anchor Text"
 git checkout step2
 tree
 
+echo "Let's investigate python script"
+cat linkextractor.py
+
+echo "Paths are normalized to full URLs"
+echo "Reporting both links and anchor texts"
+echo "Usable as a module in other scripts"
+
 
 
